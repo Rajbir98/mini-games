@@ -36,16 +36,14 @@ Thanks for reading...
 from random import choice  # For choosing random option
 from enum import Enum  # To denote options with integers
 from os import system  # To clear the terminal
-from os import environ as env  # Fun Username Call
 
 proceed = True  # Loop Check
-username = env["REPL_OWNER"]  # The Cool One
 
 while proceed:  # Game Loop
 
   print("THE SNAKE WATER GUN GAME\n")  # Fun Title
 
-  print("Welcome {}!\n".format(username))
+  print("Welcome Player!\n")
 
   # Taking Input
 
