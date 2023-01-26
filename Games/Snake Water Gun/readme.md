@@ -1,6 +1,8 @@
 Snake Water Gun
 ======================
 
+![image](https://user-images.githubusercontent.com/84771149/214818680-c1a94d1e-8ed0-4157-a37c-98dc5f49d59d.png)
+
 A simple command-line program which uses maths to play swg with you.
 
 *Nostalgia Hit!*
