@@ -18,7 +18,7 @@ What things you need to install the software and how to install them:
 
 Clone the repository to your local machine:
 ```
-$ git clone https://github.com/your-username/command-line-mini-games.git
+$ git clone https://github.com/Rajbir98/mini-games.git
 ```
 
 Note:  If the curses module is not preinstalled in your system and you are using windows then you can install it using pip
