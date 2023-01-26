@@ -1,41 +1,24 @@
-Snake Water Gun
-======================
+# Snake Water Gun
 
-![image](https://user-images.githubusercontent.com/84771149/214818680-c1a94d1e-8ed0-4157-a37c-98dc5f49d59d.png)
+![image](https://user-images.githubusercontent.com/84771149/214829059-355682e3-2f24-4e64-b75c-41e7f4ed1a59.png)
 
-A simple command-line program which uses maths to play swg with you.
+A simple command-line program which uses mathematics to play the classic game of Snake Water Gun with you.
 
-*Nostalgia Hit!*
- ______________________
+## Main Idea
 
+In the game of Snake Water Gun, we have the following rules:
+- If Snake V/S Water [Snake Wins]
+- If Water V/S Gun   [Water Wins]
+- If Snake V/S Gun   [Gun   Wins]
 
-**Main Idea...**
+To make it easier to code, we will associate each possibility with a number:
+1: Snake
+2: Water
+3: Gun
 
-We know that in Snake, Water, Gun
+By combining these numbers and the rules of the game, we can create a pattern for determining the winner:
+- If both numbers are the same, no one wins
+- If both numbers are consecutive, the smaller one wins
+- If both numbers aren't consecutive, the bigger one wins.
 
-We have, 
-
-    if Snake V/S Water [Snake Wins]
-    if Water V/S Gun   [Water Wins]
-    if Snake V/S Gun   [Gun   Wins]
-  
-Let’s associate each possibility with a *number*:
-
-  > 1: Snake
-  > 2: Water
-  > 3: Gun
-
-If we combine those numbers and the rules of the game, we get:
-  Here, '>' indicates towards the **winner**,
-
-    1 > 2 *
-    2 > 3 *
-    3 > 1 **
-
-So, we got a pattern here,
-
-    If both numbers are the same, no one wins
-    If both numbers are consecutive, the smaller one wins (*)
-    If both numbers aren’t consecutive, the bigger one wins (**)
-
-Thanks for reading...
+Thanks for reading and enjoy playing the game!
