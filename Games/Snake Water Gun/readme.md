@@ -12,9 +12,9 @@ In the game of Snake Water Gun, we have the following rules:
 - If Snake V/S Gun   [Gun   Wins]
 
 To make it easier to code, we will associate each possibility with a number:
-1: Snake
-2: Water
-3: Gun
+- 1: Snake
+- 2: Water
+- 3: Gun
 
 By combining these numbers and the rules of the game, we can create a pattern for determining the winner:
 - If both numbers are the same, no one wins
