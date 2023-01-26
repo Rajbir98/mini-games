@@ -14,3 +14,10 @@ A typing game where the player attempts to type out a randomly generated sentenc
 
 ![image](https://user-images.githubusercontent.com/84771149/214827425-94fb2fbd-d7e2-40e2-853f-fb703c0c5cc2.png)
 ![image](https://user-images.githubusercontent.com/84771149/214827566-2f2a0e5a-b8fd-4a6e-9755-99d149c201e1.png)
+
+## Built With
+* [Python](https://www.python.org/) - The programming language used
+* [Curses](https://pypi.org/project/windows-curses/) - The module used to make GUI
+
+## Authors
+* **Rajbir Modak** - [Your GitHub](https://github.com/Rajbir98)
