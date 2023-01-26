@@ -1,33 +1,24 @@
 '''
 Main Idea...
-
 We know that in Snake, Water, Gun
-
-We have, 
-
+We have,
   if Snake V/S Water [Snake Wins]
   if Water V/S Gun   [Water Wins]
   if Snake V/S Gun   [Gun   Wins]
-  
-Let’s associate each possibility with a number:
 
+Let’s associate each possibility with a number:
   1: Snake
   2: Water
   3: Gun
-
 If we combine those numbers and the rules of the game, we get:
   Here, '>' indicates towards the winner,
-
     1 > 2 *
     2 > 3 *
     3 > 1 **
-
 So, we got a pattern here,
-
     If both numbers are the same, no one wins
     If both numbers are consecutive, the smaller one wins (*)
     If both numbers aren’t consecutive, the bigger one wins (**)
-
 Thanks for reading...
 '''
 
@@ -35,7 +26,7 @@ Thanks for reading...
 
 from random import choice  # For choosing random option
 from enum import Enum  # To denote options with integers
-from os import system  # To clear the terminal
+import os  # To clear the terminal
 
 proceed = True  # Loop Check
 
@@ -63,7 +54,7 @@ while proceed:  # Game Loop
   words = ["Drank The Water", "Spilled Over The Gun", "Shot The Snake"]
 
   # Clearing the Terminal (not necessary)
-  system('clear')
+  os.system('cls' if os.name == 'nt' else 'clear')
 
   # Setting up Enum
 
@@ -106,6 +97,6 @@ while proceed:  # Game Loop
   if input("Play Again? (y/n): ").lower() == 'y':  # Continue?
     proceed = True
     # Clearing the Terminal (pretty necessary)
-    system('clear')
+    os.system('cls' if os.name == 'nt' else 'clear')
   else:
     proceed = False
